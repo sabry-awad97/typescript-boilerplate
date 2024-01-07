@@ -1,0 +1,20 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env tsx ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.2",
+    "tsx": "^4.7.0",
+    "vitest": "^1.1.3"
+  }
+}
