@@ -5,7 +5,10 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "dev": "cross-env tsx ."
+    "dev": "cross-env tsx .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +16,7 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
     "@types/node": "^22.10.2",
+    "@vitest/ui": "^2.1.8",
     "cross-env": "^7.0.3",
     "nodemon": "^3.1.9",
     "tsx": "^4.19.2",
